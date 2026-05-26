@@ -33,7 +33,7 @@ public abstract class RealEstate {
   }
 
   public final String generateDescription() {
-    return String.format("%s - %.0f m2 - Estimated charges : %.2f $/month", getLocalization(), surface,
+    return String.format("%s - %.0f m2 - Estimated expenses : %.2f $/month", getLocalization(), surface,
         calculateCharges());
   }
 
