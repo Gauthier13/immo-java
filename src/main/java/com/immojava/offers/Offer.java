@@ -2,8 +2,6 @@ package com.immojava.offers;
 
 import com.immojava.properties.RealEstate;
 
-import jdk.tools.jlink.internal.plugins.PluginsResourceBundle;
-
 public class Offer {
   private final Long id;
   private final String title;
