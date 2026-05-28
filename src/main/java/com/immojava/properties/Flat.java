@@ -7,9 +7,9 @@ public class Flat extends RealEstate {
   private final int story;
   private final boolean elevator;
 
-  public Flat(String adress, String city, double surface, int stoty, boolean elevator) {
+  public Flat(String adress, String city, double surface, int story, boolean elevator) {
     super(adress, city, surface);
-    this.story = stoty;
+    this.story = story;
     this.elevator = elevator;
   }
 
