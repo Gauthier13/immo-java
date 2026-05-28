@@ -28,9 +28,10 @@ public class Main {
         .id(2L)
         .title("Maison familiale avec grand terrain")
         .price(650_000)
+        .realEstate(house)
         .build();
 
-    martin.AddOffer(offer2);
+    martin.AddOffer(offer2); // not published
 
     System.out.println("=== Agents ImmoJava ===");
     System.out.println(sophie);
@@ -38,7 +39,6 @@ public class Main {
     sophie.getOffers().forEach(System.out::println);
 
     System.out.println();
-    System.out.println(martin);
     System.out.println(martin);
     System.out.println("Published Offers : " + martin.getPublishedOffers().size());
 
